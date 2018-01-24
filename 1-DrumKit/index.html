@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Use your keyboard (Doesn't work on mobile!)</h1>
     <div class="keys">
         <div data-key="65" class="key">
             <kbd>A</kbd>
@@ -80,6 +81,8 @@
             if (e.propertyName !== 'transform') return; // Omite las que no sean transformaciones            
             this.classList.remove('playing');
         }
+
+        
         
         const keys = document.querySelectorAll('.key');        
         keys.forEach(key => key.addEventListener('transitionend', removeTransition));

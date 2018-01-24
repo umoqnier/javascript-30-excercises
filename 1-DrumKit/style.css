@@ -10,6 +10,12 @@ body,html {
     font-family: sans-serif;
 }
 
+h1{
+    font-size: 1.2rem;
+    text-align: center;
+    color: antiquewhite;
+    background: rgba(0,0,0,0.4);
+}
 .keys {
     color: aliceblue;
     display: flex;
